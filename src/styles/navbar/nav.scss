@@ -1,0 +1,6 @@
+body {
+	display: flex;
+	@media (min-width: 1200px) {
+		flex-direction: row;
+	}
+}

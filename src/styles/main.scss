@@ -1,0 +1,29 @@
+@import './navbar/nav.scss';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body{
+    background-color:#E5E3D6;
+}
+
+button{
+    width: 75px;
+    height: 39px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+
+    line-height: 39px;
+    color: #000000;
+
+    background: none;
+    border: 50px;
+
+    transition: 500ms;
+}
+
+button:hover{
+    color: #585852;
+    transition: 500ms;
+}
