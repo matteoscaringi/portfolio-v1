@@ -1,5 +1,7 @@
-body {
+.navbar{
 	display: flex;
+	justify-content: 1000px;
+
 	@media (min-width: 1200px) {
 		flex-direction: row;
 	}
