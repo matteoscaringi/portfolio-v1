@@ -1,11 +1,10 @@
 .navbar {
     display: flex;
     justify-content: center;
-    margin-right: 12px;
+    align-items: center;
 }
 
 button {
-    width: 75px;
     height: 39px;
 
     position: inherit;
@@ -27,6 +26,7 @@ button {
 @media (min-width: 1200px) {
     .navbar {
         justify-content: initial;
+        align-items: initial;
     }
 
     button {}
