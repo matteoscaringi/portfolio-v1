@@ -30,6 +30,14 @@ button:hover{
     transition: 500ms;
 }
 
+@media (max-height: 667px) {
+    .navbar {
+
+    }
+
+    button {}
+}
+
 @media (min-width: 1200px) {
     .navbar {
         justify-content: initial;
