@@ -30,19 +30,12 @@ button:hover{
     transition: 500ms;
 }
 
-@media (max-height: 667px) {
-    .navbar {
-
-    }
-
-    button {}
-}
-
 @media (min-width: 1200px) {
     .navbar {
         justify-content: initial;
         align-items: initial;
-    }
 
-    button {}
+        margin-top: 20px;
+        margin-left: 35px;
+    }
 }

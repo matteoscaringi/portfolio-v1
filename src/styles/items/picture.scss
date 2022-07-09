@@ -7,13 +7,29 @@
     display: flex;
     margin-top: 3pc;
 
-    flex-grow: 0
+    flex-grow: 0;
+
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
 }
 
-@media (max-height: 667px) {
+@media screen and (max-height: 667px) {
     .picture {
         margin-top: 1.5pc;
     }
 }
 
-@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {
+    .picture {
+        width: 390px;
+        height: 390px;
+        margin: unset;
+
+        align-items: initial;
+        justify-content: initial;
+
+        margin-left: 60px;
+        margin-top: 170px;
+    }
+}
