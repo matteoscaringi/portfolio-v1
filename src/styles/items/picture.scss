@@ -5,9 +5,13 @@
     border-radius: 15px;
     
     display: flex;
-    
-    flex-grow: 0;
-    @media (min-width: 1200px) {
-        
-    }
+    margin-top: 4pc;
+
+    flex-grow: 0
 }
+
+@media screen and (min-width: 1200px) {
+        
+}
+
+

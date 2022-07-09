@@ -1,8 +1,35 @@
 .navbar{
 	display: flex;
-	justify-content: 1000px;
+	justify-content: center;
+	margin-right: 12px;
+}
 
-	@media (min-width: 1200px) {
-		flex-direction: row;
+button{
+    width: 75px;
+    height: 39px;
+    
+    position: inherit;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+
+    line-height: 39px;
+    color: #000000;
+
+    background: none;
+    border: 50px;
+
+    transition: 500ms;
+}
+
+@media (min-width: 1200px) {
+	.navbar{
+		justify-content: initial;
+	}
+    
+	button {
+
 	}
 }

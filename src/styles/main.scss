@@ -1,5 +1,6 @@
 @import './navbar/nav.scss';
 @import './items/picture.scss';
+@import './items/hero.scss';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 body {
@@ -11,44 +12,9 @@ body {
 	overflow: hidden;
     font-family: 'Montserrat';
     background-color:#E5E3D6;
-    @media (min-width: 1200px) {
-        
-    }
-}
-
-.image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-button{
-    width: 75px;
-    height: 39px;
-    
-    position: inherit;
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 22px;
-
-    line-height: 39px;
-    color: #000000;
-
-    background: none;
-    border: 50px;
-
-    transition: 500ms;
-    @media (min-width: 1200px) {
-        
-    }
 }
 
 button:hover{
     color: #585852;
     transition: 500ms;
-    @media (min-width: 1200px) {
-        
-    }
 }
