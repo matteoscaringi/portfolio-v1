@@ -10,4 +10,10 @@
     flex-grow: 0
 }
 
+@media (min-height: 667px) {
+    .picture {
+        margin-top: 2pc;
+    }
+}
+
 @media screen and (min-width: 1200px) {}
