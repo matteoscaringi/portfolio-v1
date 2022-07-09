@@ -1,13 +1,13 @@
-.navbar{
-	display: flex;
-	justify-content: center;
-	margin-right: 12px;
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin-right: 12px;
 }
 
-button{
+button {
     width: 75px;
     height: 39px;
-    
+
     position: inherit;
 
     font-family: 'Montserrat';
@@ -25,11 +25,9 @@ button{
 }
 
 @media (min-width: 1200px) {
-	.navbar{
-		justify-content: initial;
-	}
-    
-	button {
+    .navbar {
+        justify-content: initial;
+    }
 
-	}
+    button {}
 }
