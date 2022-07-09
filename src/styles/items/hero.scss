@@ -23,4 +23,18 @@
     font-size: 22px;
 }
 
+@media (min-height: 667px) {
+    .herotext {
+        margin-top: 5px;
+    }
+    
+    .socialicons {
+        margin-top: 10px;
+    }
+
+    .arrow {
+        margin-top: 10px;
+    }
+}
+
 @media screen and (min-width: 1200px) {}
