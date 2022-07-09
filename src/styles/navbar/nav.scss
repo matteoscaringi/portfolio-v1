@@ -3,12 +3,10 @@
     justify-content: center;
     align-items: center;
 
-    margin-top: 26px;
+    margin-top: 30px;
 }
 
 button {
-    height: 39px;
-
     position: inherit;
 
     font-family: 'Montserrat';
@@ -42,6 +40,10 @@ button:hover{
         align-items: initial;
 
         margin-top: 20px;
-        margin-left: 35px;
+        margin-left: 60px;
+    }
+
+    button {
+        font-size: 27px;
     }
 }

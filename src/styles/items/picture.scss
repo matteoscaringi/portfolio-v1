@@ -5,12 +5,11 @@
     border-radius: 15px;
 
     display: flex;
-    margin-top: 3pc;
 
     flex-grow: 0;
 
     margin: 0 auto;
-    margin-top: 3pc;
+    margin-top: 4.5pc;
     align-items: center;
     justify-content: center;
 }
@@ -23,14 +22,14 @@
 
 @media screen and (min-width: 1200px) {
     .picture {
-        width: 390px;
-        height: 390px;
+        width: 420px;
+        height: 420px;
         margin: unset;
 
         align-items: initial;
         justify-content: initial;
 
         margin-left: 60px;
-        margin-top: 170px;
+        margin-top: 150px;
     }
 }
