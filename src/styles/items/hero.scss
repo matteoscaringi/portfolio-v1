@@ -1,6 +1,6 @@
 .arrow {
     font-size: 36px;
-    margin-top: 10px;
+    margin-top: 50px;
     text-align: center;
 
     animation: MoveUpDown 3s linear infinite;
@@ -9,15 +9,16 @@
 }
 
 .herotext {
-    margin-top: 35px;
+    margin-top: 65px;
     line-height: 10px;
     text-align: center;
 }
 
 .socialicons {
     text-align: center;
+    position: relative;
 
-    margin-top: 15px;
+    margin-top: -105px;
     font-size: 22px;
 }
 
@@ -31,34 +32,39 @@
   }
 
 @media (max-height: 667px) {
-    .herotext {
-        margin-top: 5px;
-    }
-    
     .socialicons {
-        margin-top: 15px;
+        margin-top: -105px;
     }
 
     .arrow {
-        margin-top: 10px;
+        margin-top: 40px;
     }
 }
 
 @media screen and (min-width: 1200px) {
+    div.socialicons>* {
+        display: block;
+      }
+
     .herotext {
-        margin-bottom: 60px;
+        margin-top: 300px;
+        margin-left: 40px;
+
+        text-align: initial;
     }
 
     .socialicons {
         flex-direction: column;
 
+        margin-top: 260px;
+        margin-left: 65pc;
         font-size: 2rem;
     }
 
     .arrow {
-        text-align: initial;
+        text-align: center;
 
-        margin-top: 5px;
+        margin-top: 105px;
         margin-left: 30px;
     }
 }

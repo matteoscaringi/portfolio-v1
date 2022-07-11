@@ -24,6 +24,9 @@ a:visited {
 }
 
 @media screen and (min-width: 1200px) {
+	header {
+		display: flex;
+	}
 	body {
 		flex-direction: row;
 	}
