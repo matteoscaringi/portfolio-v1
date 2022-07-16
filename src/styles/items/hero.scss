@@ -1,25 +1,23 @@
 .arrow {
+    position:absolute;
+    bottom: 30px;
+    width:100%;
     font-size: 36px;
-    margin-top: 50px;
     text-align: center;
-
     animation: MoveUpDown 3s linear infinite;
-    left: 0;
-    bottom: 0;
+    left:0;
 }
 
 .herotext {
-    margin-top: 65px;
-    line-height: 10px;
+    position:relative;
     text-align: center;
 }
 
 .socialicons {
     text-align: center;
-    position: relative;
 
-    margin-top: -105px;
     font-size: 22px;
+    margin: 30px 0px;
 }
 
 @keyframes MoveUpDown {
@@ -32,10 +30,6 @@
   }
 
 @media (max-height: 667px) {
-    .socialicons {
-        margin-top: -105px;
-    }
-
     .arrow {
         margin-top: 40px;
     }
@@ -54,11 +48,12 @@
     }
 
     .socialicons {
-        flex-direction: column;
-
-        margin-top: 260px;
-        margin-left: 65pc;
         font-size: 2rem;
+        position:fixed;
+        right:20px;
+        top:50%;
+        transform:translateY(-50%);
+        -webkit-transform:translateY(-50%);
     }
 
     .arrow {
